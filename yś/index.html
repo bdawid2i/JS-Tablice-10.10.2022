@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const tablica1 = ['element1', 'element2', 'element3', 'element4'];
+
+    for(let i=0;i<tablica1.length;i++)    
+    {
+        console.log(tablica1[i]);
+    }
+
+    tablica1.unshift('Adam Małysz');
+    tablica1.push('321');
+    tablica1.pop();
+    tablica1.shift('Adam Małysz');
+
+
+
+
+    console.log('-------------------');
+
+    for(let i=0;i<tablica1.length;i++)    
+    {
+        console.log(tablica1[i]);
+    }
+
+    tablica1.length =   1;
+
+    for(let i=0;i<tablica1.length;i++)    
+    {
+        console.log(tablica1[i]);
+    }
+
+    </script>
+
+
+
+
+
+</body>
+</html>
